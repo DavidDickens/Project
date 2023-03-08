@@ -1,10 +1,10 @@
-/* 'use strict'; // forces use to use proper keywords
+'use strict'; // forces use to use proper keywords
 
 // ask the user their name with prompt()
 let name = prompt('What is your name?');
 console.log(name);
 //Display that name back to the user through a custom greeting welcoming them to your site.
-alert('Hey ' + name + 'thanks for stopping by!');
+alert('Hey ' + name + ' thanks for stopping by!');
 
 
 // 5 questions y/n 
@@ -62,4 +62,3 @@ if (qFive === 'yes'){
 
 
 
- */
