@@ -1,0 +1,73 @@
+
+body {
+/*   background-color: rgb(39, 37, 37);
+  color: grey;
+  opacity: .8;
+  background-size: cover; */
+  color: rgb(9, 248, 248)
+}
+
+h1 {
+  text-align: center;
+  color: aqua;
+  text-decoration: underline;
+  text-decoration-skip: aqua;
+  font-size: 60px;
+  margin: 40px;
+  font-family: Verdana, sans-serif;
+  
+}
+
+p.one {
+ text-align: left;
+ margin: 40px;
+ border-style: double;
+ border-width: 10px;
+ border-color: aqua;
+ padding: 10px;
+ font-size: 20px;
+ background-color: black;
+ opacity: .7;
+
+
+}
+
+footer {
+  color: aqua;
+  text-align: center;
+
+}
+
+ul{
+  color: rgb(9, 248, 248);
+  margin: 40px;
+  list-style-type: circle;
+  
+}
+
+h2{
+  color: aqua;
+  text-align: left;
+  text-decoration: underline;
+  text-decoration-skip: aqua;
+  font-size: 40px;
+  margin: 40px;
+
+}
+
+h3 {
+  font-size: 40px;
+  color: aqua;
+  text-decoration: underline;
+  text-decoration-skip: aqua;
+  margin: 40px;
+
+}
+
+html {
+  background: url(https://images.unsplash.com/photo-1677761215878-1030a5840dd3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80) no-repeat center fixed;
+  background-size: cover;
+  opacity: 1;
+  
+}
+
