@@ -7,6 +7,56 @@ console.log(name);
 alert('Hey ' + name + ' thanks for stopping by!');
 
 
+
+let question = ['Do you think I am from the South?', 'Did I ever work in the restaurant business?','Do I have any siblings?', 'Do I have and kids?', 'Was I in the military?'];
+
+/* let answer = ['yes', 'yes', 'yes', 'yes','yes','yes']; */
+
+function askQuestion(question, answer) {
+  let response = prompt(question).toLowerCase();
+  if (response === answer) {
+/*     return true;
+  } else {
+    return false;
+  } */
+}
+
+
+/* for (let i = 0; i < question.length; i++) {
+  console.log(i);
+  let rightAnswer = askQuestion(question[i], answer[i]);
+  if (rightAnswer === true) {
+    alert('good!');
+  } else {
+    alert('wrong');
+  }
+} */
+
+function test(){
+  for (let i = 0; i < question.length; i++) {
+    console.log(i);
+  let response = prompt(question[i]).toLowerCase();
+    //let rightAnswer = askQuestion(question[i], answer[i]);
+    if (response === 'yes' || response === 'y') {
+      alert('good!');
+    } else {
+      alert('wrong');
+    }
+  }
+}
+
+test();
+
+
+
+//askQuestion();
+
+/* response === answer[i]
+alert good
+alert wrong
+ */
+/*
+
 // 5 questions y/n 
 
 let qOne = prompt('Do you think I am from the South?').toLowerCase();
