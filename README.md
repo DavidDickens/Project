@@ -15,9 +15,10 @@ https://www.w3schools.com/css/default.asp
 
 ### Lighthouse Accessibility Report Score
 
-* Provide a screenshot of your score after running a Lighthouse Accessibility report.
+![Alt text](img/Screenshot%202023-03-08%20205025.png)
 
 ### Reflections and Comments
 
 * Consider including the answers to your daily journal and submission questions here
-* This is also a good place to reflect on the tools and resources used and learned
+* This is also a good place to reflect on the tools and resources used and learned.
+
