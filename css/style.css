@@ -10,8 +10,7 @@ body {
 h1 {
   text-align: center;
   color: aqua;
-  /* text-decoration: underline; */
-  text-decoration-skip: aqua;
+   text-decoration-skip: aqua;
   font-size: 60px;
   margin: 40px 700px;
   font-family: Verdana, sans-serif;
@@ -100,3 +99,21 @@ ul{
   font-size: 20px;
   
 }
+
+.pic {
+  max-width: 400px; 
+  margin: 5px;
+  max-height: 200px;
+  position: relative;
+}
+
+a {
+  color: aqua;
+  font-size: 20px;
+  margin: 20px;
+
+  }
+
+  nav {
+    text-align: center;
+  }

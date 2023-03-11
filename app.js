@@ -1,4 +1,4 @@
-'use strict';
+/* 'use strict';
 
 
 let name = prompt('What is your name?');
@@ -27,9 +27,9 @@ aboutMe();
 
 
 function numberGame() {
-  let num = 5; // guessed number .
+  let num = 5;
 
-  let tries = 4; // number of tries
+  let tries = 4;
 
 
   for (let i = 0; i < 4; i++) {
@@ -55,7 +55,7 @@ function hobbies() {
 
   let ans = ['reading', 'sports', 'cooking', 'gaming', 'gardening', 'thrifting'];
 
-  let guess = 6; // number of tries
+  let guess = 6;
   let flag = false;
 
   for (let i = 0; i < 6; i++) {
@@ -82,7 +82,4 @@ function hobbies() {
 }
 
 hobbies();
-/* 
-let correctAnswers = qOne + qTwo  + qThree + qFour + qFive + qSix + qSeven;
-console.log(correctAnswers + "/7");
-alert("Thank you for taking this quiz " + name + " you got " + correctAnswers + " out of 7 right!"); */
+ */
